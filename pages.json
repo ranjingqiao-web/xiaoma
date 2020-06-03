@@ -1,0 +1,122 @@
+{
+	"pages": [
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationStyle": "custom", 
+				"navigationBarTitleText": ""
+			}
+		},
+		 
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": ""
+		
+			}
+		
+		},
+	 
+		 
+		{
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationStyle": "custom", 
+				"navigationBarTitleText": "优惠券"
+			}
+		}
+
+	],
+	"subPackages": [{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "youhuijuandetail/youhuijuandetail",
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": "像店主出示优惠券"
+			}
+		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "usermaidang/usermaidang", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": ""
+			}
+		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "xuanzheyouhuijuan/xuanzheyouhuijuan", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": ""
+			}
+		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "youhuijuanxiaodetail/youhuijuanxiaodetail", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": "商家详情"
+			}
+		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "youhuishanghudetail/youhuishanghudetail", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": "商户详情"
+			}
+		}]
+	}
+	],
+ 
+  
+ 
+
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#F32330",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/main/main",
+				"text": "活动参与",
+				"iconPath": "static/img/xin/tab03.png",
+				"selectedIconPath": "static/img/xin/tab003.png"
+			},
+			{
+				"pagePath": "pages/userInfo/userInfo",
+				"text": "优惠券",
+				"iconPath": "static/img/xin/tab01.png",
+				"selectedIconPath": "static/img/xin/tab02.png"
+			}, {
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/img/xin/tab001.png",
+				"selectedIconPath": "static/img/xin/tab002.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#fbf9fe"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

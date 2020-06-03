@@ -1,0 +1,135 @@
+.youhuijuandetail {
+ 	width: 100%;
+ }
+
+ .daohan {
+ 	width: 100%;
+ 	padding: 80rpx 0;
+	  background-color: #fff;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+	 
+ }
+
+ .daohan0 {
+ 	flex: 1;
+ 	text-align: center;
+ }
+
+ .daohan01 {
+ 	text-align: left;
+ 	padding-left: 30px;
+ }
+
+ .daohan0huodogn {
+ 	font-size: 28rpx;
+ 	font-family: PingFangSC-Semibold, PingFang SC;
+ 	font-weight: 600;
+ 	color: #000000;
+ }
+
+ .daohanleft {
+ 	width: 45rpx;
+ 	height: 45rpx;
+ }
+ 
+ .nexttocss{
+	 width: 30px;
+	 height: 30px;
+ }
+ .usermaidangyouhui{
+	display: flex;
+	flex-direction: row; 
+	align-items: center; 
+	justify-content: space-between;
+	padding: 40rpx 20rpx ;
+	border-bottom: 1rpx solid #f6f6f6; 
+ }
+ .usermaidangyouhui1{
+	  
+	 font-size:33rpx;
+	 font-family:PingFang;
+	 font-weight:500;
+	 color:rgba(40,40,40,1); 
+ }
+ 
+ .usermaidangyouhui2{
+	 color: #979797;
+	 font-size: 28px;
+	 display: flex;
+	 flex-direction: row; 
+	 align-items: center; 
+ }
+ .colorRed{
+	 color: #F32330;
+	 font-size: 34px;
+	 font-weight: bold;
+ }
+ .okmaidang{
+	 width: 90%;
+	 margin: 0 auto;
+	 padding: 23rpx 0;
+	 color: #000000;
+	 font-weight: bold;
+	 font-size: 30rpx;
+	 border-radius: 50rpx;
+     margin-top: 60rpx;
+	 text-align: center;
+	 background:linear-gradient(90deg,rgba(224,155,74,1) 0%,rgba(255,210,141,1) 100%);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .usermmediatelyshiminren{
+ 			display: flex;
+ 			flex-direction: row;
+ 			align-items: center; 
+ 			padding: 40rpx 20rpx ;
+ 			border-bottom: 1rpx solid #f6f6f6;
+ 		}
+ 		.usermmediatelyshiminren0{
+ 			 flex: 1;
+ 			font-size:38px;
+ 			font-family:PingFang;
+ 			font-weight:500;
+ 			color:rgba(40,40,40,1); 
+ 			 
+ 		}
+ 		.usermmediatelyshiminren1{
+ 			flex: 3;
+ 			color: #979797;
+ 			font-size: 29px;
+			text-align: right;
+
+ 		}
+ 		
+ 		 
+ 		
+ 		.usermmediatelyshiminren1::-webkit-input-placeholder {
+ 			color: silver;
+ 			font-size: 28px;
+ 			border: none;
+ 			outline: none;
+ 		}
+ 		
+ 		.usermmediatelyshiminren .canyuyouhuis{
+			width: 30rpx;
+			height: 30rpx;
+			border-radius: 15rpx;
+			margin-right: 20px;
+		}
+		.iscolor{
+			font-size: 28px;
+			color: #979797;
+		}
+		.isactivecolor{
+			font-size: 28px;
+			color: #F32330;
+		}

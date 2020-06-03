@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "comuserinfoheader": "/common/comuserInfo/comuserinfoheader",
+    "comfuwulist": "/common/comuserInfo/comfuwulist",
+    "zuoshangjiao": "/common/commain/zuoshangjiao",
+    "nomoredata": "/common/nomoredata"
+  }
+}

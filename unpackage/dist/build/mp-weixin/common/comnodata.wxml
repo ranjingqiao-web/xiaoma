@@ -1,0 +1,1 @@
+<view class="comnodata _div"><image class="comnodata0 _img" src="{{nodata}}"></image><view class="comnodata1">{{''+cont+''}}</view></view>

@@ -1,0 +1,275 @@
+ 
+ .youhuijuanxiaodetail{
+	 width: 100%;
+ }
+ .youhutop{
+	 width: 100%;
+	 height: 482rpx;
+ }
+ .youhutopimg{
+	 width: 100%;
+	 height: 100%;
+	 background-size: cover;
+ }
+ .youhutopcontent{
+	width: 100%;
+	padding: 30rpx 0;
+ background-color: #fff;
+	border-top-left-radius: 23rpx;
+	border-top-right-radius: 23rpx; 
+	margin-top: -13px;
+	position: relative;
+	border-bottom: 20rpx solid #f6f6f6;
+
+ }
+ .youhutopcontent0{
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+ .youhutopcontent1{
+	 font-size:36rpx;
+	 font-family:PingFang-SC-Bold,PingFang-SC;
+	 font-weight:bold;
+	 padding-left: 20rpx;
+	 color: #000000;
+ }
+ .sharexisharexi{
+	 width: 44rpx;
+	 height: 44rpx;
+ }
+ .youhutopcontent2{
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center; 
+	 color: #fff;
+	 font-size: 24rpx;
+	 width:120px;
+	 height:54px;
+	 background:linear-gradient(270deg,rgba(255,103,80,1) 0%,rgba(245,45,15,1) 100%);
+	 border-radius:100px 0px 0px 100px;
+ }
+ 
+ .share-btn{
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center; 
+	 color: #fff;
+ 		border: none;
+ 		background-color: #fff; 
+ 		padding: 0;
+ 		flex: 1;
+ 		margin: 0;
+ 		line-height: 19px;
+ 		font-size: 28rpx;
+ 		line-height: 38rpx;
+ 		border-radius: 1px;
+		 background:linear-gradient(270deg,rgba(255,103,80,1) 0%,rgba(245,45,15,1) 100%);
+		 border-radius:100px 0px 0px 100px;
+ 
+ 
+ 	}
+ 	button::after{
+ 		border: none;
+ 		line-height: 1; 
+ 		line-height: 19px; 
+ 	} 
+	
+	.youhutopcontentop{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #999;
+		font-size: 24rpx;
+		padding-left: 20rpx;
+		padding: 30rpx 0;
+		padding-left: 20rpx;
+	}
+	.youhutopcontentopb{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #999;
+	}
+	.youhutopcontentopb1{
+		flex: 3;
+		color: #999;
+		font-size: 24rpx;
+		padding-left: 20rpx;
+	}
+	.youhutopcontentopb2{
+		flex:1;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.youhutopcontentopb3{
+		width: 40rpx;
+		height: 40rpx;
+	}
+	
+	
+	.refdadianhau0{
+	width: 90%;
+	height: 400rpx;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 68%;
+	border-radius: 10rpx;
+
+	}
+	.refdadianhau01{
+	background-color: #f4ea2a;	 
+	padding: 20rpx 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 10rpx;
+	}
+	.refdadianhau02{
+		width: 60rpx;
+		height: 60rpx;
+	 
+	}
+	.refdadianhau03{
+		font-size: 36rpx;
+		font-weight: bold;
+		text-align: center;
+		padding: 30rpx 0;
+	}
+	.refdadianhau04{
+		display: flex;
+		flex-direction: row; 
+		align-items: center;
+		font-size: 30rpx;
+		 
+		padding: 20rpx 0;
+		padding-left: 2rem;
+	}
+	.refdadianhauright{
+		margin-left: 30rpx;
+		color: #0FAEFF;
+		font-weight: bold;
+	}
+	
+	
+	
+	.dianpushangpin{
+		width: 100%; 
+		background-color: #fff;
+		padding: 20rpx 0;
+		border-bottom: 20rpx solid #F6F6F6;
+	}
+	.dianpushangpin0{
+		display: flex;
+		flex-direction: row; 
+		justify-content: space-between;
+		align-items: center;
+		padding-right: 20rpx;
+	}
+	.dianpushangpin1{
+		border-left: 16rpx solid #F32330;
+		padding-left:20rpx ;
+		font-size: 30rpx;
+		font-weight: 600;
+		
+	}
+	.dianpushangpin2{
+		display: flex;
+		flex-direction: row;  
+		align-items: center;
+		color: #999;
+		font-size: 26rpx;
+	}
+	.dianpushangpin2img{
+		width: 30rpx;
+		height: 30rpx;
+	}
+	.dianpushangpin3{
+		width: 90%;
+		display: flex;
+		flex-direction: row;  
+		 flex-wrap: wrap;
+		align-items: center;
+		margin: 0 auto;
+		margin-top: 20rpx;
+
+	}
+	.dianpushangpin3img{
+		width: 120rpx;
+		height: 120rpx;
+		margin-right: 20rpx;
+		margin-top: 20rpx;
+
+	}
+	.dianpushangpin40{
+		padding-left:20rpx ;
+		margin-top: 20rpx;
+	}
+	.dianpushangpin41{
+		font-size: 30rpx ;
+		font-weight: 600;
+		color: #000000;
+	}
+	.dianpushangpin42{
+		font-size: 30rpx ;
+		font-weight: 600;
+		color: #F32330;
+		margin: 10rpx 0;
+	}
+	.dianpushangpin43{
+		color: #999;
+		font-size: 26rpx;
+	}
+	
+	.dianpushangpin333{
+		text-align: center;
+		color: #999;
+		font-size: 26rpx;
+		padding: 30rpx 0;
+	}
+	
+	
+	.dianpushangpin529{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.coocss1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center ;
+		align-items: center;
+		font-size: 30rpx;
+		color: #666666;
+	}
+	.coocsst{
+		width: 37rpx;
+		height: 16rpx;
+
+	}
+	.coocss{
+	width:70rpx ;	 
+	height:70rpx ;	 
+	margin-top: 20rpx;
+	}
+	
+	.yongyouhuijuanmaidang{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: #F32330;
+		color: #fff;
+		font-size: 32rpx;
+		text-align: center;
+		padding:  26rpx 0;
+	}
+	.marginbottom{
+		margin-bottom: 2rem;
+	}

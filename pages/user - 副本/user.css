@@ -1,0 +1,145 @@
+.quanbutitlestyle {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contentuser {
+		width: 100%;
+	}
+
+	.daohans {
+		width: 100%;
+		padding: 80rpx 0;
+		background-color: #ffff99;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9;
+	}
+
+	.daohan0 {
+		flex: 1;
+		text-align: center;
+	}
+
+	.daohan01 {
+		text-align: left;
+		padding-left: 30px;
+	}
+
+	.daohan0huodogn {
+		font-size: 32rpx;
+		font-family: PingFangSC-Semibold, PingFang SC;
+		font-weight: 600;
+		color: #000000;
+	}
+
+	.usertopdenglogo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 294rpx;
+		background-color: #ffff99;
+		margin-top: 210rpx;
+		padding-top: 10rpx;
+
+
+	}
+
+	.usertopdenglogoimg {
+		width: 157rpx;
+		height: 157rpx;
+		border-radius: 93rpx;
+
+		margin-bottom: 20rpx;
+	}
+
+	.daohanleft {
+	width: 52rpx;
+	height: 52rpx;
+	border-radius: 23rpx;
+	margin-right: 30rpx;
+
+	}
+
+	.mainswitop {
+		margin-top: 289rpx;
+	}
+
+	.quanbutitlestyle {
+		border-bottom: 1px solid #f0f0f0;
+		padding: 40rpx 0;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 20rpx;
+
+	}
+
+	.titlestyleTwo {
+		display: flex;
+		flex-direction: row;
+
+		align-items: center;
+		color: #B4B4B4;
+		font-size: 24px;
+	}
+
+	.mineImagestwo {
+		height: 100rpx;
+		line-height: 100px;
+		padding-left: 30px;
+
+
+	}
+
+	.mineImagestwoimg {
+		width: 60rpx;
+		height: 60rpx;
+		position: absolute;
+		top: 71rpx;
+	}
+
+	.you1Style {
+		width: 40rpx;
+		height: 40rpx;
+		margin-right: 11rpx;
+
+	}
+
+	.titlestylest {
+		font-size: 28px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.testbutton{
+		background-color: #ffff99;
+
+	}
+button::after {
+border:none;
+
+}
+.usertopdenglogoco{
+	font-size: 28rpx;
+}
+
+
+.cancelorderbox0 button{ 
+	margin-bottom: 10rem;
+	width: 43%; 
+	background-color: #ffff66;
+	color: #333;
+
+}

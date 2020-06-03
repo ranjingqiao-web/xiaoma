@@ -1,0 +1,59 @@
+	.mainswi {
+		width: 100%;
+	}
+	.daohan {
+		width: 100%;
+		padding: 80rpx 0;
+	  background-color: #fff;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9;
+	}
+	
+	.daohan0 {
+		flex: 1;
+		text-align: center;
+	}
+	
+	.daohan01 {
+		text-align: left;
+		padding-left: 30px;
+	}
+	
+	.daohan0huodogn {
+		font-size: 32rpx;
+		font-family: PingFangSC-Semibold, PingFang SC;
+		font-weight: 600;
+		color: #000000;
+	}
+	
+	.daohanleft {
+		width: 45rpx;
+		height: 45rpx;
+	}
+	
+	
+	
+	
+	.scrollYHeigth {
+		height: calc(100vh);
+	}
+
+	.infocontenttext {
+		width: 100%;
+	}
+
+	.margintop100 {
+		margin-top: 258rpx;
+	}
+	.listscss{
+		 margin-bottom: 20px;
+	}
+	
+	
+	 

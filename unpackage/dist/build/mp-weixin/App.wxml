@@ -1,0 +1,1 @@
+<block wx:if="{{isLogin}}"><view class="dengluin"><view class="dengluin0">ssss</view></view></block>

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/user/user",
+    "pages/userInfo/userInfo"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesRuZhu",
+      "pages": [
+        "youhuijuandetail/youhuijuandetail",
+        "usermaidang/usermaidang",
+        "xuanzheyouhuijuan/xuanzheyouhuijuan",
+        "youhuijuanxiaodetail/youhuijuanxiaodetail",
+        "youhuishanghudetail/youhuishanghudetail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#F32330",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "活动参与",
+        "iconPath": "static/img/xin/tab03.png",
+        "selectedIconPath": "static/img/xin/tab003.png"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "优惠券",
+        "iconPath": "static/img/xin/tab01.png",
+        "selectedIconPath": "static/img/xin/tab02.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/xin/tab001.png",
+        "selectedIconPath": "static/img/xin/tab002.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "uploadFile": 20000,
+    "request": 20000
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

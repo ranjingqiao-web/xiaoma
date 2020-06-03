@@ -1,0 +1,5 @@
+export const DATATEXT_MUTATION = 'DATATEXT_MUTATION'
+export const LOGIN_USERINFO = 'LOGIN_USERINFO'
+export const IS_LOGIN = 'IS_LOGIN'
+export const IS_AUTH = 'IS_AUTH'
+export const IS_BOL = 'IS_BOL'
