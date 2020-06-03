@@ -32,7 +32,7 @@
 
 			</view>
 		</div>
-		<div class="quanbutitlestyle" >
+		<div class="quanbutitlestyle"  @click='tovip'>
 			<view class="titlestylest">
 				<image :src="dingdang1" class=" daohanleft"></image>
 				会员卡
@@ -42,7 +42,7 @@
 
 			</view>
 		</div>
-		<div class="quanbutitlestyle">
+		<div class="quanbutitlestyle"  @click='lljil'>
 			<view class="titlestylest">
 				<image :src="dingdang2" class=" daohanleft"></image>
 				浏览的店铺
@@ -117,6 +117,20 @@
         
 		
 		methods: {
+			lljil(){
+				let url ='../../pagesRuZhu/liulandianpu/liulandianpu'
+				//商户
+				// let url ='../../pagesRuZhu/youhuishanghudetail/youhuishanghudetail' 
+				 let param={}
+				 this.$navTo.togo(url,param)
+			},
+			tovip(){
+				let url ='../../pagesRuZhu/userviplist/userviplist'
+				//商户
+				// let url ='../../pagesRuZhu/youhuishanghudetail/youhuishanghudetail' 
+				 let param={}
+				 this.$navTo.togo(url,param)
+			},
 			//00000000000000000000000000000000000000000000
 
 			ffffff() {

@@ -77,11 +77,31 @@
 				"navigationBarTitleText": "商户详情"
 			}
 		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "userviplist/userviplist", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": ""
+			}
+		}]
+	},
+	{
+		"root": "pagesRuZhu",
+		"pages": [{
+			"path": "liulandianpu/liulandianpu", 
+			"style": {
+				"navigationStyle": "custom",  
+				"navigationBarTitleText": ""
+			}
+		}]
 	}
 	],
  
   
- 
+  
 
 	"tabBar": {
 		"color": "#7a7e83",

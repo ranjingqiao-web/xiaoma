@@ -1,0 +1,63 @@
+ 
+ .youhuijuanxiaodetail{
+	 width: 100%;
+ }
+ .youhuijzuobottom{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+ } 
+ .youhuijzuobottom2{
+	 padding-top: 80rpx;
+	 font-size: 30rpx;
+	 font-weight: 600;
+	 color: #333;
+ } 
+ .lldianpu{
+	 margin-top: 72rpx;
+
+ }
+ .lldianpu0{
+	 width: 96%;
+	 margin: 0 auto;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 30rpx 0;
+     border-bottom: 1px solid #F0F0F0;
+ }
+ .lldianpu1{
+	display: flex;
+	flex-direction: row; 
+	align-items: center; 
+ }
+ .lldianpu2{
+	 width: 100rpx;
+	 height: 100rpx;
+	 border-radius: 60rpx;
+	 margin-right: 20rpx;
+ }
+ .lldianpu3{
+	font-size:34rpx;
+	font-family:PingFangSC-Regular,PingFang SC;
+	font-weight:400;
+	color:#000; 
+ }
+ .lldianpu4{
+	 font-size:28rpx;
+	 font-family:PingFangSC-Regular,PingFang SC;
+	 font-weight:400;
+	 color:#666666;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+ }
+ .dinwei9{
+	 width: 25rpx;
+	 height: 25rpx;
+	 margin-right: 10rpx;
+ }
+ 

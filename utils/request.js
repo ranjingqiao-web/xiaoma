@@ -52,15 +52,7 @@ function request_post(url, param, successCallback, failCallback) {
 	uni.showLoading({
 		title: '加载中'
 	})
-	uni.onNetworkStatusChange(function(res) {
-		console.log("网络类型:" + res.networkType + ",网络连接:" + res.isConnected);
-		if (!res.isConnected) {
-			uni.showToast({
-				title: "网络未连接"
-			});
-			return;
-		}
-	})
+ 
 	uni.getStorage({
 		key: 'token',
 

@@ -1,0 +1,88 @@
+ 
+ .youhuijuanxiaodetail{
+	 width: 100%;
+ }
+ .youhuijzuobottom{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+ } 
+ .youhuijzuobottom2{
+	 padding-top: 80rpx;
+	 font-size: 30rpx;
+	 font-weight: 600;
+	 color: #333;
+ }
+ .viplist0{
+	 margin-top: 60rpx;
+ }
+ .viplist{
+	 position: relative;
+	 height: 345rpx;
+	 width: 96%;
+	 margin: 0 auto;
+	 margin-bottom: 20rpx;
+ }
+ .viplistimg{
+	 width: 100%;
+	 height: 100%;
+	 background-size: cover;
+ }
+ 
+ .viplist1{
+	 font-size:36rpx;
+	 color: #E6CC96;
+	 font-family:PingFang-SC-Bold,PingFang-SC;
+	 font-weight:bold;
+	 position: absolute;
+	 top: 30rpx;
+	 left: 30rpx;
+	  }
+ .viplist2{
+	 font-size:28rpx;
+	 color: #E6CC96;
+	 font-family:PingFang-SC-Bold,PingFang-SC;
+	 font-weight:bold;
+	 position: absolute;
+	 top: 102rpx;
+	 left: 30rpx;
+ }
+ .viplist3{
+ 	 font-size:28rpx;
+ 	 color: #E6CC96;
+ 	 font-family:PingFang-SC-Bold,PingFang-SC;
+ 	 font-weight:bold;
+ 	 position: absolute;
+ 	 top: 168rpx;
+ 	 left: 30rpx;
+ }
+ .viplist4{
+	 font-size:24rpx;
+	 font-family:PingFangSC-Regular,PingFang SC;
+	 font-weight:400;
+	 color: #9B979B;
+	 position: absolute;
+	 top: 269rpx;
+	 left: 30rpx;
+ }
+ .viplist6{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+ }
+ .viplist5{
+	 font-size:28rpx;
+	 font-family:PingFangSC-Regular,PingFang SC;
+	 font-weight:400;
+	 color: #000000;
+	 background:linear-gradient(90deg,rgba(224,155,74,1) 0%,rgba(255,210,141,1) 100%);
+	border-radius: 36rpx;
+	position: absolute;
+	right: 30rpx;
+	bottom: 41rpx;
+	padding: 16rpx 24rpx;
+
+ }
